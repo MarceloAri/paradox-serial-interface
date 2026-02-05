@@ -1,0 +1,12 @@
+serial:
+  port: "/dev/ttyUSB0"  # Windows: "COM3", Linux: "/dev/ttyUSB0"
+  baudrate: 9600
+  timeout: 5
+
+panel:
+  pc_password: "0000"  # Senha PC (4 dígitos hex: 0-9a-f)
+  model: "MG5050"      # MG5050, SP7000, etc
+
+logging:
+  level: "DEBUG"
+  dump_packets: true
